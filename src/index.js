@@ -11,8 +11,8 @@ const firebaseApp = initializeApp({
   appId: "1:666652921217:web:6d70de16cb70e6ac8aac80",
 });
 
-const auth = getAuth(firebaseApp);
-const db = getFirestore(firebaseApp);
+export const auth = getAuth(firebaseApp);
+export const db = getFirestore(firebaseApp);
 
 //Detect state auth
 
